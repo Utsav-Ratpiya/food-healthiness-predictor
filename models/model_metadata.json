@@ -1,0 +1,43 @@
+{
+    "model_type": "GradientBoostingRegressor",
+    "training_date": "2025-11-09 15:29:08",
+    "best_parameters": {
+        "learning_rate": 0.1,
+        "max_depth": 2,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 300
+    },
+    "performance_metrics": {
+        "train_r2": 0.9965514885946034,
+        "test_r2": 0.9819734828214521,
+        "train_rmse": 0.3357539252532695,
+        "test_rmse": 0.8379775755350914,
+        "test_mae": 0.28247027038505235
+    },
+    "num_features": 15,
+    "selected_features": [
+        "protein_g",
+        "sugar_tot_g",
+        "fa_sat_g",
+        "sodium_mg",
+        "fiber_td_g",
+        "ash_g",
+        "magnesium_mg",
+        "lipid_tot_g",
+        "vit_c_mg",
+        "potassium_mg",
+        "niacin_mg",
+        "vit_b6_mg",
+        "calcium_mg",
+        "fa_poly_g",
+        "fa_mono_g"
+    ],
+    "training_samples": 5738,
+    "test_samples": 1435,
+    "healthiness_categories": {
+        "Unhealthy": "0-33",
+        "Moderate": "34-66",
+        "Healthy": "67-100"
+    }
+}
