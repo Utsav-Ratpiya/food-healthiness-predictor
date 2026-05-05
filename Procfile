@@ -1,0 +1,1 @@
+web: gunicorn food_selector_app:app
